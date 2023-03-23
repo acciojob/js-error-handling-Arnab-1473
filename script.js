@@ -13,6 +13,7 @@ class InvalidExprError extends Error {
   }
 }
 
+
 function evalString(str) {
   try {
     if (/[\+\-\*\/]{2,}/.test(str)) {
